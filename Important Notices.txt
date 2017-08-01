@@ -1,0 +1,12 @@
+THIS is in an alpha phase.
+There are probably a lot of bugs and loopholes that I have not yet discovered.
+You need internet connection to download Jquery and Fonts from Google API.
+
+Database is named
+brother_brian
+
+login
+root
+
+password
+nothing like literally no password ""

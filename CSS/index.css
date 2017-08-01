@@ -1,0 +1,70 @@
+div.registerInfo
+{
+	display: none;
+}
+body, html
+{
+	height:100%;
+	overflow:hidden;
+}
+label
+{
+	font: 20pt 'Product Sans', Arial, sans-serif;
+}
+form
+{
+	position:relative;
+	top:10%;
+}
+body
+{
+	text-align:center;
+}
+.background
+{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:-100;
+	left:0%;
+	top:0%;
+}
+.loginInput, .registerInput
+{
+	padding: 1%;
+	border-radius: 10px;
+	border: 2px solid #333333;
+	background-color: rgba(255,255,255,0.5);
+	width: 25%;
+	font: 12pt 'Product Sans', Arial, sans-serif;
+}
+.webLogo
+{
+	width:5%;
+	height:5%;
+}
+#passCheck, #log
+{
+	color: red;
+	font: 16pt 'Product Sans', Arial, sans-serif;
+}
+#button
+{
+	font: 16pt 'Product Sans', Arial, sans-serif;
+	width:12%;
+	background-color: rgba(180,180,210,0.5);
+	border: 2px solid #333333;
+	border-radius:10px;
+	transition: background-color 1s ease;
+	-webkit-transition: background-color 1s ease;
+	-moz-transition: background-color 1s ease;
+	cursor:pointer;
+}
+#button:hover
+{
+	background-color: transparent;
+}
+#companyHeader
+{
+	font: bold 36pt 'Product Sans', Arial, sans-serif;
+}
